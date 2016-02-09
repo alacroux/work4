@@ -24,6 +24,8 @@ public class Application {
 	public static void main(String[] args) {
 		Application app = new Application();
 		
+		app.questionZero();
+		
 		app.questionOneOne();
 		app.questionOneTwo();
 		app.questionOneThree();
@@ -42,6 +44,16 @@ public class Application {
 		app.questionForOne();
 		app.questionForTwo();
 		app.questionForThree();
+	}
+	
+	/**
+	 * Question 0
+	 */
+	public void questionZero() {
+		System.out.println(SEPARATOR);
+		System.out.println("Question 0 :\n");
+
+		displayFile("question0.txt");
 	}
 	
 	/**

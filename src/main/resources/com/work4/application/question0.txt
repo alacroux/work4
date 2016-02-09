@@ -1,0 +1,14 @@
+● Contact info:
+	○ Name:Alexandre Lacroux
+	○ Phone number : +33615113839
+	○ Skype id : alexandre.lacroux
+● School / University : Telecom SudParis
+● Specialty / Major :
+● Type of application (internship or full time): full time
+● Start date: ASAP
+● If internship
+	○ length of internship:
+	○ Looking for full time position after:
+● Location (Paris or San Francisco): Paris (application for San Francisco)
+● Experience in programming (briefly): 6 years
+● Technologies mastered: JAVA, NoSQL, JMS, OSGI, RESTful APIs
