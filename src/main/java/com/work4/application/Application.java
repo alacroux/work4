@@ -153,6 +153,8 @@ public class Application {
 		for(int n = 0 ; n<=10 ; n++) {
 			System.out.println(String.format("f(%d) = %d", n, f(n)));
 		}
+		System.out.println("...");
+		System.out.println("See the sources for the details of the function");
 	}
 	
 	/**
