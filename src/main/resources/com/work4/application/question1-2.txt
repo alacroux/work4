@@ -1,0 +1,13 @@
+["celery", “carrot”, “cabbage”, “tomato”]
+
+// 1st iteration
+[“carrot”, “celery”, “cabbage”, “tomato”] // compare "celery" and “carrot” : swap
+[“carrot”, “cabbage”, “celery”, “tomato”] // compare "celery" and “cabbage” : swap
+[“carrot”, “cabbage”, “celery”, “tomato”] // compare "celery" and “tomato” : do not swap
+
+// 2nd iteration
+[“cabbage”, “carrot”, “celery”, “tomato”] // compare “carrot” and “cabbage” : swap
+[“cabbage”, “carrot”, “celery”, “tomato”] // compare “carrot” and “celery” : do not swap
+
+// 3rd iteration
+[“cabbage”, “carrot”, “celery”, “tomato”] // compare “cabbage” and “carrot” : do not swap

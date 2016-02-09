@@ -1,0 +1,4 @@
+An instance variable has a different value (so a different memory area) for each instance of a class, whereas class variable as the same value for every instances of a class.
+
+For example, a human being has 2 legs. The number of legs is a class variable of human being.
+The size of the human being is different for each human being. The size is an instance variable of human being. 

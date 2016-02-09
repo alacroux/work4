@@ -1,0 +1,9 @@
+CREATE TABLE user
+(
+    id INT PRIMARY KEY NOT NULL,
+    firstname VARCHAR(100),
+    lastname VARCHAR(100),
+    gender BOOLEAN,
+    email VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ;

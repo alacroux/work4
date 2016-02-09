@@ -1,0 +1,40 @@
+public class Square {
+	
+	// The width of the square
+	int width;
+
+	// Constructor
+	public Square(int width) {
+		this.width = width;
+	}
+
+	public int getArea() {
+		return width * width;
+	}
+
+	public int getPerimeter() {
+		return 4 * width;
+	}
+}
+
+// Rectangle extends Square to avoid duplication of width property
+public class Rectangle extends Square {
+
+	// The height of the rectangle (the width being inherited from Square class)
+	int height;
+
+	// Constructor
+	public Rectangle(int width, int height) {
+		// Call parent constructor to avoid duplication of width initialization
+		super(width);
+		this.height = height;
+	}
+
+	public int getArea() {
+		return height * width;
+	}
+
+	public int getPerimeter() {
+		return ( height + width ) * 2;
+	}
+}
